@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HelloGank</string>
+
+    <string name="no_more">------- 我是有底线的 -------</string>
+    <string name="place_hold_empty">什么都没有</string>
+    <string name="place_hold_error">出错了，请点击重试!</string>
+    <string name="place_hold_load">加载中…</string>
+
+    <string name="open_browser">用浏览器打开</string>
+    <string name="copy_url">复制链接</string>
+    <string name="collect">收藏</string>
+    <string name="share">分享</string>
+    <string name="share_title">分享到</string>
+    <string name="copy_success">已复制</string>
+
+    <string name="img">img</string>
+</resources>

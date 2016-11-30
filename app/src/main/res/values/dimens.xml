@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="f1">17sp</dimen>
+    <dimen name="f2">15sp</dimen>
+    <dimen name="f3">13sp</dimen>
+    <dimen name="f4">12sp</dimen>
+    <dimen name="f5">10sp</dimen>
+    <dimen name="f6">9sp</dimen>
+
+    <dimen name="space_fuli_item">1.5dp</dimen>
+</resources>
