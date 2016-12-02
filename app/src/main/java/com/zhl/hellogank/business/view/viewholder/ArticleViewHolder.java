@@ -1,7 +1,8 @@
-package com.zhl.hellogank.business.view;
+package com.zhl.hellogank.business.view.viewholder;
 
 import com.zhl.hellogank.R;
 import com.zhl.hellogank.business.model.bean.Article;
+import com.zhl.hellogank.common.base.DataBindingVH;
 import com.zhl.hellogank.databinding.ItemArticleBinding;
 
 /**

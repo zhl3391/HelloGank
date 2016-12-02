@@ -16,7 +16,7 @@
     </style>
 
     <style name="PreView" parent="AppTheme">
-        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/c3</item>
     </style>
 
     <style name="TabLayoutTextAppearance" >

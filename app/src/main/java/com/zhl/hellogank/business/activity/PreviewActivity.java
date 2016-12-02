@@ -8,6 +8,9 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 import com.zhl.hellogank.R;
 import com.zhl.hellogank.common.base.BaseActivity;
 
@@ -45,6 +48,8 @@ public class PreviewActivity extends BaseActivity {
         AptIntent.bind(this);
 
         Glide.with(this).load(mImgUrl)
+                .dontAnimate()
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(mImgPic);
 
         mImgPic.setOnClickListener(new View.OnClickListener() {

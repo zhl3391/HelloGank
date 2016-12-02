@@ -1,6 +1,5 @@
 package com.zhl.hellogank.business.view;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -22,10 +21,11 @@ import com.zhl.hellogank.business.IntentCreator;
 import com.zhl.hellogank.business.contract.ArticleContract;
 import com.zhl.hellogank.business.model.bean.Article;
 import com.zhl.hellogank.business.model.bean.HomeType;
+import com.zhl.hellogank.business.view.viewholder.ArticleViewHolder;
+import com.zhl.hellogank.business.view.viewholder.FuLiViewHolder;
 import com.zhl.hellogank.common.base.BaseSwipeRefreshViewFragment;
 import com.zhl.hellogank.common.baseui.GridMarginDecoration;
 import com.zhl.hellogank.common.baseui.LoadMoreVH;
-import com.zhl.hellogank.common.utils.ScreenUtils;
 
 import aptintent.lib.AptIntent;
 

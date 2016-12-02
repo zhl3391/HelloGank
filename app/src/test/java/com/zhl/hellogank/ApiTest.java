@@ -1,6 +1,5 @@
 package com.zhl.hellogank;
 
-import com.zhl.hellogank.business.model.bean.Article;
 import com.zhl.hellogank.business.model.bean.DayData;
 import com.zhl.hellogank.net.RequestApi;
 import com.zhl.hellogank.net.Response;
@@ -8,8 +7,6 @@ import com.zhl.hellogank.net.Response;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.List;
 
 import rx.observers.TestSubscriber;
 

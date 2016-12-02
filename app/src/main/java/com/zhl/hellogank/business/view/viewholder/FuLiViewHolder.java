@@ -1,4 +1,4 @@
-package com.zhl.hellogank.business.view;
+package com.zhl.hellogank.business.view.viewholder;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,7 +40,6 @@ public class FuLiViewHolder extends BaseViewHolder<Article> {
         mImgFuli.setLayoutParams(params);
         Glide.with(mContext).load(data.url)
                 .override(data.imgWidth, data.imgHeight)
-                .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(mImgFuli);
     }

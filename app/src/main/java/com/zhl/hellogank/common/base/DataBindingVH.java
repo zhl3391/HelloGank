@@ -1,4 +1,4 @@
-package com.zhl.hellogank.business.view;
+package com.zhl.hellogank.common.base;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
